@@ -10,5 +10,3 @@ class CalcTest(SimpleTestCase):
     def test_add_number(self):
         res = calc.add_number(1, 2)
         self.assertEqual(3, res)
-
-
